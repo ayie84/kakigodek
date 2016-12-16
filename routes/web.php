@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+*/
 
-
-Route::get('/godekhome', function () {
+//Route::get('/godekhome', function () {
+Route::get('/', function () {
     return view('godekbootstrap');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

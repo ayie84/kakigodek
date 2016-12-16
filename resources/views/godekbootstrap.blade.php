@@ -2,6 +2,18 @@
 @extends('godekmaster')
 
 @section('header')
+	<nav>
+        <ul class="nav nav-pills pull-right">
+        <li role="presentation" class="active"><a href="home">Home</a></li>
+        <li role="presentation"><a href="#">About</a></li>
+        <li role="presentation"><a href="#">Contact</a></li>
+        <li role="presentation"><a href="login">Login</a></li>
+        </ul>
+    </nav>
+    <h3 class="text-muted">This Site For My Godek-Godek Project</h3>
+@stop
+
+@section('sidebar-up')
 <h1>kakigodek</h1>
 @stop
 
